@@ -1,0 +1,220 @@
+a {
+	color: #ecb752;
+	font-family: "Montserrat", sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+
+p {
+	color: #ecb752;
+	font-family: "Montserrat", sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+
+#bullsEye-info-title {
+	color: #d54d7b;
+	font-family: "Great Vibes", cursive;
+	font-size: 90px;
+	line-height: 160px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	margin-top: 40px;
+	text-align: center;
+	text-shadow: 0 1px 1px #fff;
+}
+#try-again {
+	font-size: 30px;
+}
+
+body {
+	background-image: url("./images/circles-1314247_1920.jpg");
+	background-size: cover;
+	text-align: center;
+	font-family: "Merriweather", serif;
+	margin: 0;
+}
+h1 {
+	font-family: "Sacramento", cursive;
+	font-size: 2.5rem;
+	/* margin: 50px auto 0 auto; */
+}
+
+h3 {
+	font-family: "Montserrat", sans-serif;
+	color: #ffffff;
+	font-size: 2rem;
+	font-weight: normal;
+	display: inline-block;
+	margin: 10px 190px;
+}
+
+.scorecard__Button {
+	/* margin: 10px 40px;
+	padding: 10px; */
+	-webkit-border-radius: 21px;
+	-moz-border-radius: 21px;
+	border-radius: 15px;
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	padding: 10px;
+	background-color: #ecb752;
+	-webkit-box-shadow: 0 1px 8px 0 #000000;
+	-moz-box-shadow: 0 1px 8px 0 #000000;
+	box-shadow: 0 1px 8px 0 #000000;
+	text-shadow: 1px 1px 20px #000000;
+	border: solid #ecb752 0;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+}
+
+img {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.hitme__button {
+	margin-top: 20px;
+	-webkit-border-radius: 21px;
+	-moz-border-radius: 21px;
+	border-radius: 21px;
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	padding: 15px;
+	background-color: #ecb752;
+	-webkit-box-shadow: 0 1px 8px 0 #000000;
+	-moz-box-shadow: 0 1px 8px 0 #000000;
+	box-shadow: 0 1px 8px 0 #000000;
+	text-shadow: 1px 1px 20px #000000;
+	border: solid #ecb752 0;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.app-heading-container {
+	text-align: center;
+	color: #ffffff;
+}
+
+.starting__label {
+	position: absolute;
+	left: 5px;
+	font-size: 2.5rem;
+	margin-left: 150px;
+	display: inline-block;
+}
+
+.ending__label {
+	position: absolute;
+	right: 0;
+	font-size: 2.5rem;
+	margin-right: 150px;
+	display: inline-block;
+}
+
+.target-heading {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.middle-slider-container {
+	margin-top: 70px;
+	padding: 20px;
+}
+
+.scorecard-container {
+	margin-top: 20px;
+	padding: 30px 5px 30px;
+}
+
+.bottom-container {
+	position: fixed;
+	/* padding: 50px 0 20px; */
+	bottom: 0px;
+	width: 100%;
+}
+
+.slider {
+	margin: 25px;
+	-webkit-appearance: none;
+	width: 65%;
+	height: 15px;
+	border-radius: 5px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: 0.2s;
+	transition: opacity 0.2s;
+}
+
+.slider:hover {
+	opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #ecb752;
+	cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #ecb752;
+	cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+#modal-content {
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+#close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
