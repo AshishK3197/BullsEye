@@ -24,7 +24,7 @@ document.getElementById("hitmebutton").onclick = function () {
 };
 
 function checkHitValue(value) {
-	console.log(value);
+	// console.log(value);
 	if (value == target) {
 		//== because of value coming from slider is a string and not a number
 		// console.log("100% Hit");
