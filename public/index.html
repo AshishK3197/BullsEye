@@ -8,63 +8,72 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
 </head>
 <body>
-    <!-- App Heading and Title Section -->
-    <div class="app-heading-container">
-        <h1>Welcome to BullsEye.</h1>
-        <h2>Hit Target to win Points.</h2>
-        <h3 class="target-heading">Put the bullseye as close to the target as you can : <span id="target-value"></span> </h3>
-    </div>
+
+    <div class="container">
+<!-- App Heading and Title Section -->
+<div class="app-heading-container">
+    <h1>Welcome to BullsEye.</h1>
+    <h2>Hit Target to win Points.</h2>
+    <h3 class="target-heading">Put the bullseye as close to the target as you can : <span id="target-value"></span>
+    </h3>
+</div>
 
 
-    <!-- Slider and Label Section -->
-    <div class="middle-slider-container">
-        <h3 class="starting__label">0</h3>
-        <!-- <div class="slidecontainer"></div> -->
-        <input class="slider" type="range" min="0" max="100" id="sliderID">
-        <h3 class="ending__label">100</h3>
-    </div>
+<!-- Slider and Label Section -->
+<div class="middle-slider-container">
+    <h3 class="starting__label">0</h3>
+    <!-- <div class="slidecontainer"></div> -->
+    <input class="slider" type="range" min="0" max="100" id="sliderID">
+    <h3 class="ending__label">100</h3>
+</div>
 
 
-    <!-- Hit ME Button -->
-    <button type="button" class="hitme__button" id="hitmebutton">
-        <img src="./images/target.png" alt="Place Holder" />
-        Hit Me!!!
+<!-- Hit ME Button -->
+<div class="hitMe">
+<button type="button" class="hitme__button" id="hitmebutton">
+    <img src="./images/target.png" alt="Place Holder" />
+    Hit Me!!!
+</button>
+</div>
+
+
+<!-- Scorecard and Info Section -->
+<div class="scorecard-container">
+    <button type="button" class="scorecard__Button" id="startOver">
+        <img src="./images/refresh.png" alt="Place Holder" />
+        Start Over
     </button>
-
-    <!-- Scorecard and Info Section -->
-    <div class="scorecard-container">
-        <button type="button" class="scorecard__Button" id="startOver">
-            <img src="./images/refresh.png" alt="Place Holder" />
-            Start Over
-        </button>
-        <h3>Score: <span id="score"></span></h3>
-        <h3>Round:<span id="round"></span></h3>
+    <h3>Score: <span id="score"></span></h3>
+    <h3>Round:<span id="round"></span></h3>
     <button type="button" class="scorecard__Button" id="infoBtn">
         <img src="./images/info.png" alt="Place Holder" />
         Info
     </button>
-        
+
+</div>
+
+<!-- Footer Section -->
+<div class="bottom-container">
+    <a href="https://linkedin.com/in/ashishk161">LinkedIn</a>
+    <a href="https://twitter.com/ashishk3197">Twitter</a>
+    <a href="https://github.com/AshishK3197">Website</a>
+    <!-- <p>Made with ❤️ in India.</p> -->
+    <p>© 2020 Ashish Kumar</p>
+</div>
+
+
+
+<!-- Modal Content Div -->
+<div id="divModal" class="modal">
+    <div id="modal-content">
+        <span id="close">&times;</span>
+        <div id="custom-id"></div>
     </div>
 
-    <!-- Footer Section -->
-    <div class="bottom-container">
-        <a  href="https://linkedin.com/in/ashishk161">LinkedIn</a>
-        <a  href="https://twitter.com/ashishk3197">Twitter</a>
-        <a  href="https://github.com/AshishK3197">Website</a>
-        <!-- <p>Made with ❤️ in India.</p> -->
-        <p>© 2020 Ashish Kumar</p>
+</div>
     </div>
 
-
-
-    <!-- Modal Content Div -->
-    <div id="divModal" class="modal">
-        <div id="modal-content">
-            <span id="close">&times;</span>
-            <div id="custom-id"></div>
-        </div>
     
-    </div>
 
     <script type="text/javascript" src="index.js" ></script>
 </body>
