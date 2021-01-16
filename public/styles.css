@@ -27,6 +27,12 @@ p {
 	font-size: 30px;
 }
 
+#bullseye-failed-target {
+	font-size: 20px;
+	font-weight: normal;
+	text-shadow: 0 1px 1px #fff;
+}
+
 body {
 	background-image: url("./images/circles-1314247_1920.jpg");
 	background-size: cover;

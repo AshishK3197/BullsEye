@@ -47,7 +47,11 @@ function checkHitValue(value) {
 			updateScoreAndRound();
 			// console.log("0% Hit");
 		}
+		// showing the user his hit  status.
 		document.getElementById("custom-id").innerHTML =
+			'<p id="bullseye-failed-target">You had a hit at</p>' + " " + value;
+
+		document.getElementById("custom-id").innerHTML +=
 			'<p id="bullsEye-info-title">Sorry,You Missed It.😕</p>';
 
 		document.getElementById("custom-id").innerHTML +=
